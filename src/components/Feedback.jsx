@@ -5,7 +5,6 @@ import Statistics from './Statistics';
 import Section from './Section';
 import Notification from './Notification';
 
-// рефакторинг
 const Feedback = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
